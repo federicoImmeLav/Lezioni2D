@@ -1,0 +1,14 @@
+
+#sezioneImmagine {
+    /* imposto la sezione grande quanto la schermata iniziale */
+    height: 100vh; /* vh imposta in percentuale rispetto alla dimensione della schermata */
+    /* imposto le posizioni per mettere tutto centrato */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* imposto immagine di sfondo */
+    background-image: url("./img/sfondo.jpg");
+    /* per impostare l'immagine singola come cover */
+    background-repeat: no-repeat; /* tolgo la ripetizione */
+    background-size: cover ; /* immagine grande come lo schermo */
+}

@@ -1,0 +1,81 @@
+/*------------------------------------HEADER BASE------------------------------------*/
+#headerBase {
+    background-color: coral;
+    /* altezza */
+    height: 50px;
+    /* posiziono il logo in mezzo */
+    display: flex;
+    justify-content: center; /*centro orizzontalmente*/
+    align-items: center;/*centro vertcalmente*/
+}
+
+/* ridimensiono l'immagine del logo */
+#logo {
+    height: 30px;
+}
+
+
+/*------------------------------------HEADER PULSANTI------------------------------------*/
+#headerPulsanti {
+    background-color: teal;
+    height: 60px;
+    display: flex;
+    align-items: center; /* allinea in centro verticalemente */
+    justify-content: space-between; /* allinea in orizzontale */
+    padding: 20px; /* aggiungo dello spazio a destra e sinistra */
+}
+
+/* la classe si chiama con il punto */
+.pulsante {
+    /* allargo il pulsante */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    /* stondo i bordi del pulsante */
+    border-radius: 50px;
+}
+
+/*------------------------------------HEADER MENU------------------------------------*/
+
+#headerMenu {
+    height: 80px;
+    background-color: crimson;
+    /* posiziono il menu nel punto giusto */
+    display: flex;
+    align-items: center;
+    padding: 20px; /* aggiungo dello spazio a destra e sinistra */
+}
+
+/* rimpicciolisco il logo del menu */
+#menu {
+    height: 50px;
+}
+
+/* metto colore di sfondo alla fascia del menu */
+#fasciaMenu {
+    background-color: crimson;
+    margin-top: -20; /* tiro su la fascia per coprire il bianco*/
+    display: none; /* imposto il menu come invisibile */
+}
+
+ul {
+    list-style-type: none; /* tolgo i puntini alla lista */
+}
+/* do un po di spazio agli elementi singoli della lista */
+li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/*------------------------------------HEADER RICERCA------------------------------------*/
+
+#headerRicerca {
+    height: 80px;
+    background-color: sandybrown;
+    /* posiziono il menu nel punto giusto */
+    display: flex;
+    align-items: center;
+    justify-content: space-around; /* distanzio gli elementi nella barra*/
+    padding: 20px; /* aggiungo dello spazio a destra e sinistra */
+}

@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <!-- primo header semplice con logo -->
+        <header id="headerBase">
+            <!-- mettiamo il tag delle immagini -->
+            <img src="./img/logo.png" alt="" id="logo">
+        </header>
+
+        <!-- header con logo e pulsanti -->
+        <header id="headerPulsanti">
+            <img src="./img/logo.png" alt="" id="logo">
+            <!-- raggruppo i due pulsanti per poterli allineare insieme -->
+            <div>
+                <!-- inserisco un pulsante che ha una classe per personalizzarlo -->
+                <button class="pulsante">Registrati</button>
+                <!-- duplico il pulsante e cambio il testo all'interno -->
+                <button class="pulsante">Accedi</button>
+            </div>
+        </header>
+
+        <!-- header con menu animato -->
+        <header id="headerMenu">
+            <!-- carico immagine del menu da poter cliccare poi -->
+            <!-- inserirsco dentro a img il comando per accendere la funzione quando clicco -->
+            <img onclick="appariMenu()" id="menu" src="./img/menu.png" alt="">
+        </header>
+        <div id="fasciaMenu">
+            <!-- elenco non numerato -->
+            <ul>
+                <!-- singoli elementi si chiamano li -->
+                <li>Elemento1</li>
+                <li>Elemento2</li>
+                <li>Elemento3</li>
+            </ul>
+        </div>
+
+        <!-- header con menu animato -->
+        <header id="headerRicerca">
+            <img src="./img/logo.png" alt="" id="logo">
+            <!-- raggruppo input e button in un unico gruppo -->
+            <div>
+                <!-- inserisco un campo di ricerca -->
+                <input type="text" id="ricerca">  
+                <!-- aggiungo bottone per cercare   -->
+                <button id="pulsanteRicerca">Ricerca</button>
+            </div>
+        </header>
+
+        
+        <script src="./script.js"></script>
+    </body>
+</html>
