@@ -12,3 +12,17 @@
     background-repeat: no-repeat; /* tolgo la ripetizione */
     background-size: cover ; /* immagine grande come lo schermo */
 }
+
+/* imposto il div con una grandezze e per essere diviso in due colonne */
+#sezioneColonne {
+    height: 50vh;
+    background-color: blueviolet;
+    /* proprietà per dire al contenitore di dividersi in colonne */
+    display: flex;
+    flex-wrap: wrap; /*metto i div uno di fianco all'altro*/
+}
+
+/* imposto la colonna larga la metà dello spazio */
+#colonna {
+    width: 30%;
+}
