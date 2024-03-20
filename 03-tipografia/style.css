@@ -1,0 +1,26 @@
+#paragrafoColorato {
+    /* color è la proprietà per cambiare il colore al testo */
+    color: brown;
+    /* background-color invece cambia il colore dello sfondo */
+    background-color: aquamarine;
+}
+
+#cambioDimensione {
+    /* per cambiare dimensione si usa font-size */
+    font-size: 30px;
+}
+
+#testoGrassetto {
+    /* per il grassetto si usa font-weight */
+    font-weight: bold;
+}
+
+#testoCorsivo {
+    /* per il corsivo si usa font-style, italic significa corsivo */
+    font-style: italic;
+}
+
+#cambioFont {
+    /* per cambiare il font si usa font-family */
+    font-family: Arial, Helvetica, sans-serif;
+}
