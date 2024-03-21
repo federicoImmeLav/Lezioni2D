@@ -4,7 +4,7 @@
     /* background-color invece cambia il colore dello sfondo */
     background-color: aquamarine;
 }
-
+ 
 #cambioDimensione {
     /* per cambiare dimensione si usa font-size */
     font-size: 30px;
@@ -23,4 +23,26 @@
 #cambioFont {
     /* per cambiare il font si usa font-family */
     font-family: Arial, Helvetica, sans-serif;
+}
+
+/* metto dimensioni e colori al div */
+#riquadro {
+    width: 200px; /*larghezza*/
+    height: 50px;
+    background-color: blueviolet;
+}
+
+/* cambio colore quando passo sopra con il mouse: hover  */
+#riquadro:hover {
+    background-color: blue;
+    /* per dare un tempismo metto transition */
+    transition: 0.5s;
+}
+
+/* stilizzo il bottone */
+#bottone {
+    /* spazio sopra e sotto di 20 e destra e sinistra di 50 */
+    padding: 20px 50px;
+    /* distanza dall'alto */
+    margin-top: 10px;
 }
