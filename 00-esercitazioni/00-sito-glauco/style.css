@@ -6,7 +6,7 @@ header {
     background-color: beige;
     align-items: center; /*centro verticalmente il contenuto*/
 }
-
+ 
 #logo {
     width: 50%; /*Largo metà della pagina*/
 }
@@ -27,4 +27,45 @@ header {
 
 #testoDx {
     width: 50%;
+    padding: 100px;
 }
+
+#immagine {
+    width: 100%;
+}
+
+#secondaSezione {
+    height: 50vh;
+    padding: 30px;
+}
+
+
+
+footer {
+    display: flex;
+}
+#form {
+    width: 50%;
+    padding: 100px;
+}
+#info {
+    width: 50%;
+    display: flex;
+    align-items: end;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ button {
+    background-color: brown;
+    border-radius: 30px;
+    padding: 10px 40px;
+    color: white;
+ }
+
+ input {
+    width: 200px;
+    height: 40px;
+ }
