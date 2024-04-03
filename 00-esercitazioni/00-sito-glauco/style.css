@@ -1,0 +1,30 @@
+header {
+    height: 15vh; /* vh è una proporzione rispetto alla pagina */
+    display: flex;
+    /* dispongo un div a sx e uno a dx */
+    justify-content: space-between;
+    background-color: beige;
+    align-items: center; /*centro verticalmente il contenuto*/
+}
+
+#logo {
+    width: 50%; /*Largo metà della pagina*/
+}
+
+#menu {
+    width: 50%; /*Largo metà della pagina*/
+    display: flex;
+    justify-content: space-around;
+}
+
+#primaSezione {
+    display: flex;
+}
+
+#imgSx {
+    width: 50%;
+}
+
+#testoDx {
+    width: 50%;
+}
